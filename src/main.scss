@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+a.no-link {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}

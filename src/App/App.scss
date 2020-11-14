@@ -1,0 +1,23 @@
+.container {
+  max-width: 976px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  &_fluid-sm {
+    @media screen and (max-width: 600px) {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.page-wrapper {
+  padding: 30px 20px 0;
+
+  @media screen and (max-width: 600px) {
+    padding: 0;
+  }
+}

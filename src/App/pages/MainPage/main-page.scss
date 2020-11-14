@@ -1,0 +1,20 @@
+.main-page {
+  display: flex;
+
+  &__content {
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+
+    @media screen and (max-width: 600px) {
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+
+  &__side-bar {
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+}

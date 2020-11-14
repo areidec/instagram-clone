@@ -1,0 +1,15 @@
+.progress-line {
+  position: relative;
+  width: calc(100% - 16px);
+  margin: 8px;
+  border-radius: 8px;
+  background-color: #eee;
+  height: 13px;
+  padding: 4px;
+
+  &__line {
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+}

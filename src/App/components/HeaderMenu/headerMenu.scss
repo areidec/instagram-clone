@@ -1,0 +1,56 @@
+.header-menu {
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__avatar {
+    height: 22px;
+    width: 22px;
+  }
+
+  &__item {
+    margin-right: 20px;
+    cursor: pointer;
+
+    a svg {
+      fill: #000;
+
+      &:active {
+        fill: #000000;
+      }
+    }
+
+    a:not(.active) svg {
+      stroke: #000;
+      stroke-width: 1px;
+      fill: transparent;
+    }
+  }
+}
+
+.link-ava {
+  position: relative;
+
+  &.active {
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 50%;
+    top: -1.5px;
+    left: -1.5px;
+    height: 27px;
+    width: 27px;
+    opacity: 0;
+  }
+}
